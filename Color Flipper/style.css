@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: #f1f5f8;
+	color: hsl(209, 61%, 16%);
+	letter-spacing: 0.1rem;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+}
+
+/* Navigation Bar */
+nav {
+	display: grid;
+	align-items: center;
+	height: 3rem;
+	background-color: #ffffff;
+}
+
+.nav-container {
+	width: 90vh;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.nav-container h3 {
+	color: hsl(205, 78%, 60%);
+}
+
+.nav-item {
+	display: flex;
+}
+
+.nav-item a {
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 1.25rem;
+	letter-spacing: 0.1rem;
+	margin-right: 1rem;
+	color: hsl(205, 86%, 17%);
+}
+
+.nav-item a:hover {
+	color: hsl(205, 78%, 60%);
+}
+
+/* Main Section */
+main {
+	min-height: calc(100vh - 3rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	text-align: center;
+}
+
+.container h2 {
+	background-color: #222222;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.color {
+	color: hsl(205, 78%, 60%);
+}
+
+.btn {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	background-color: transparent;
+	color: #222222;
+	padding: 0.75rem 1.25rem;
+	border: 3px solid #222222;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+}
+
+.btn:hover {
+	color: #ffffff;
+	background-color: #222222;
+	border: 3px solid #ffffff;
+}
