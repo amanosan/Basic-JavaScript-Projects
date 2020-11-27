@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #dfdfdf;
+	font-family: "Open Sans", sans-serif;
+	color: #333333;
+}
+
+h1 {
+	font-size: 2.5rem;
+	letter-spacing: 0.5rem;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+img {
+	height: 10rem;
+	width: 10rem;
+	border-radius: 50%;
+	border: 2px solid #50c9ba;
+}
+
+.container {
+	min-height: 90vh;
+	text-align: center;
+	display: grid;
+	flex-direction: column;
+	align-items: center;
+	width: 80vw;
+	max-width: 40vw;
+	margin: 0 auto;
+}
+
+.title {
+	margin: 50px;
+}
+
+.underline {
+	width: 30%;
+	height: 0.3rem;
+	background-color: #50c9ba;
+	margin: 0 auto;
+}
+
+.review {
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.author {
+	font-size: 1.25rem;
+	margin-top: 1rem;
+	letter-spacing: 0.2rem;
+	text-transform: capitalize;
+}
+
+.job {
+	color: #50c9ba;
+	font-size: 0.8rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	margin: 10px;
+}
+
+#info {
+	font-size: 0.8rem;
+	font-weight: 300;
+	color: #333333;
+	letter-spacing: 1px;
+}
+
+#person-img {
+	object-fit: cover;
+}
+
+.btn-container {
+	margin: 10px;
+}
+
+.prev-btn,
+.next-btn {
+	color: #50c9ba;
+	font-size: 1.25rem;
+	background: transparent;
+	border: none;
+	outline: none;
+	margin: 0 1rem;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+	color: #222222;
+}
+
+.random-btn {
+	padding: 0.5rem 1.5rem;
+	background: transparent;
+	outline: none;
+	border: 2px solid #50c9ba;
+	border-radius: 10px;
+	font-family: "Open Sans", sans-serif;
+	letter-spacing: 0.2rem;
+	font-size: 0.75rem;
+}
+
+.random-btn:hover {
+	background-color: #333333;
+	color: #50c9ba;
+}
+
+@media screen and (max-width: 800px) {
+	h1 {
+		font-size: 3.5rem;
+		letter-spacing: 0.5rem;
+		font-weight: 600;
+	}
+
+	h4 {
+		font-size: 1.5rem;
+		font-weight: 400;
+	}
+
+	.container {
+		min-height: 100vh;
+		width: 80vw;
+		margin: 0 auto;
+	}
+}
